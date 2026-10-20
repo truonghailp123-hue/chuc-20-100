@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Chúc mừng 20/10</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="center-wrapper">
+      <div class="music-bar">
+        <div class="music-controls">
+          <button
+            class="music-btn"
+            id="prevBtn"
+            title="Bài trước"
+            aria-label="Bài trước"
+          >
+            <svg viewBox="0 0 24 24">
+              <path d="M6 6h2v12H6zM9.5 12l8.5 6V6z" />
+            </svg>
+          </button>
+
+          <button
+            class="music-btn main"
+            id="playPauseBtn"
+            title="Phát / Dừng"
+            aria-label="Phát hoặc dừng nhạc"
+          >
+            <svg id="iconPlay" viewBox="0 0 24 24" style="display: none">
+              <path d="M8 5v14l11-7z" />
+            </svg>
+            <svg id="iconPause" viewBox="0 0 24 24">
+              <path d="M6 5h4v14H6zM14 5h4v14h-4z" />
+            </svg>
+          </button>
+
+          <button
+            class="music-btn"
+            id="nextBtn"
+            title="Bài tiếp theo"
+            aria-label="Bài tiếp theo"
+          >
+            <svg viewBox="0 0 24 24">
+              <path d="M16 6h2v12h-2zM6 18l8.5-6L6 6z" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="music-title" id="musicTitle">♪ Đang tải nhạc...</div>
+      </div>
+
+      <div class="center-message">
+        <strong>Chúc mừng 20-10</strong>
+        <span id="centerText">
+          Nhân ngày phụ nữ việt nam<br />
+          Thân là học tử Xin làm bài thơ<br />
+          Lời thơ tuy có mộng mơ<br />
+          Nhưng mong được gửi vần thơ đến người
+        </span>
+      </div>
+
+      <div class="letters-row" id="lettersRow"></div>
+    </div>
+
+    <div class="popup" id="popup">
+      <div class="popup-content">
+        <img id="popupImage" src="" alt="Lời chúc" />
+        <p id="popupMessage">Lời chúc ở đây</p>
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <audio id="player" preload="auto"></audio>
+
+    <video
+      class="center-gif"
+      src="./assets/meo1.mp4"
+      autoplay
+      muted
+      loop
+      playsinline
+      webkit-playsinline
+      preload="auto"
+    ></video>
+  </body>
+</html>
