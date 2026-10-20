@@ -3,42 +3,42 @@
    volume: âm lượng dự phòng từ 0 đến 1.
    ===================================================== */
 const playlist = [
-  { title: "Bài hát 1", src: "./assets/1.mp4", volume: 1 },
-  { title: "Bài hát 2", src: "./assets/2.mp4", volume: 0.5 },
-  { title: "Bài hát 3", src: "./assets/3.mp4", volume: 1 },
-  { title: "Bài hát 4", src: "./assets/4.mp4", volume: 1 },
+  { title: "Bài hát 1", src: "./1.mp4", volume: 1 },
+  { title: "Bài hát 2", src: "./2.mp4", volume: 0.5 },
+  { title: "Bài hát 3", src: "./3.mp4", volume: 1 },
+  { title: "Bài hát 4", src: "./4.mp4", volume: 1 },
 ];
 
 /* ================= DANH SÁCH LỜI CHÚC ================= */
 const letters = [
   {
-    icon: "./assets/letters.png",
-    img: "./assets/ban1.jpg",
+    icon: "./letters.png",
+    img: "./ban1.jpg",
     text: "Chúc người xinh đẹp như tiên\nLuôn luôn vui vẻ ưu phiền tránh xa\nNhư là con nhà người ta\nLuôn luôn học giỏi lời ca dịu dàng",
   },
   {
-    icon: "./assets/q3.png",
-    img: "./assets/ban2.jpg",
+    icon: "./q3.png",
+    img: "./ban2.jpg",
     text: "Chúc người điều may muôn vàn\nĐường tài như nước đường duyên nhẹ nhàng\nTình duyên như cành hoa ban\nĐường tình hạnh phúc ngập tràn yêu thương",
   },
   {
-    icon: "./assets/h1.png",
-    img: "./assets/ban4.jpg",
+    icon: "./h1.png",
+    img: "./ban4.jpg",
     text: "Thế gian ngàn vạn loài hoa\nNhưng bông đẹp nhất không qua các nàng\nCác nàng lá ngọc cành vàng\nXin người bên cạnh nhẹ nhàng yêu thương",
   },
   {
-    icon: "./assets/h3.png",
-    img: "./assets/ban6.jpg",
+    icon: "./h3.png",
+    img: "./ban6.jpg",
     text: "Nhân ngày 20/10, chúc bạn không chỉ có một ngày ngập tràn hoa và lời chúc, mà còn có thật nhiều ngày được sống theo cách mình mong muốn. Mong những nỗ lực của bạn được trân trọng, những tổn thương được xoa dịu và những ước mơ rồi sẽ có ngày thành hiện thực.",
   },
   {
-    icon: "./assets/t2.png",
-    img: "./assets/ban5.jpg",
+    icon: "./t2.png",
+    img: "./ban5.jpg",
     text: "Nhân ngày 20/10, con chúc mẹ luôn mạnh khỏe, bình an và hạnh phúc. Cảm ơn mẹ vì đã luôn yêu thương, hy sinh và dành cho con những điều tốt đẹp nhất. Mong mẹ lúc nào cũng nở nụ cười trên môi.",
   },
   {
-    icon: "./assets/t5.png",
-    img: "./assets/ban3.jpg",
+    icon: "./t5.png",
+    img: "./ban3.jpg",
     text: "Nhân ngày Phụ nữ Việt Nam 20/10, em xin kính chúc các cô giáo luôn mạnh khỏe, xinh đẹp, hạnh phúc và tràn đầy nhiệt huyết với nghề. Chúc các cô luôn giữ mãi nụ cười trên môi, gặt hái nhiều thành công trong sự nghiệp trồng người và luôn được học trò yêu quý, kính trọng. Em xin chân thành cảm ơn các cô vì những kiến thức, tình yêu thương và sự tận tâm dành cho chúng em!",
   },
 ];
